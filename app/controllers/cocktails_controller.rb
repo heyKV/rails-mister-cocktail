@@ -32,8 +32,6 @@ before_action :set_cocktail, only: [:show, :edit, :update, :destroy]
   def delete
     @cocktail = Cocktail.find(params[:id])
     @cocktail.destroy
-
-
   end
 end
 
