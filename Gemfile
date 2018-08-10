@@ -39,6 +39,9 @@ gem 'jbuilder', '~> 2.5'
 gem 'bootsnap', '>= 1.1.0', require: false
 gem 'cloudinary'
 
+#secret keys on Github, we can use the dotenv gem for security.
+gem 'dotenv-rails', groups: [:development, :test]
+
 #installed for the exercice.
 gem 'autoprefixer-rails'
 gem 'bootstrap-sass', '~> 3.3.7'
